@@ -12,6 +12,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <version.jbossas7>7.1.0.Beta1b</version.jbossas7>
   </properties>
 
   <repositories>
@@ -120,7 +121,7 @@
           <plugin>
             <groupId>org.jboss.as.plugins</groupId>
             <artifactId>jboss-as-maven-plugin</artifactId>
-            <version>7.1.0.Beta1b</version>
+            <version>${version.jbossas7}</version>
           </plugin>
         </plugins>
       </build>
@@ -132,7 +133,7 @@
         <dependency>
           <groupId>org.jboss.as</groupId>
           <artifactId>jboss-as-arquillian-container-managed</artifactId>
-          <version>7.1.0.Beta1b</version>
+          <version>${version.jbossas7}</version>
           <scope>test</scope>
         </dependency>
       </dependencies>
@@ -144,7 +145,7 @@
         <dependency>
           <groupId>org.jboss.as</groupId>
           <artifactId>jboss-as-arquillian-container-remote</artifactId>
-          <version>7.1.0.Beta1b</version>
+          <version>${version.jbossas7}</version>
           <scope>test</scope>
         </dependency>
       </dependencies>
